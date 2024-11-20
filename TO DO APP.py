@@ -9,10 +9,10 @@ for i in range(1,total_task+1):
         tasks.append(task)
         print("your task has been added")
     elif operation==2:
-        old_task=input("enter task you want to update")
+        old_task=input("Enter task you want to update")
         
         if old_task in tasks:
-                updated_task=input("enter new task  ")
+                updated_task=input("Enter new task  ")
                 index=tasks.index(old_task)
                 tasks[index]=updated_task
         else:
